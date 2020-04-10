@@ -1,0 +1,128 @@
+/*************************通用样式-begin************************/
+body{
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+/*头部-begin*/
+#navbarNav ul li.showcode a{
+    position: relative;
+}
+
+#navbarNav ul li.showcode a img{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    display: none;
+}
+
+#navbarNav ul li.showcode a:hover img{
+    display: block;
+}
+
+#car_head .banner{
+    margin-top: 56px;
+}
+
+#car_head .nav-link{
+    font-size: 0.9em;
+}
+
+/*尾部*/
+#footer{
+    background-color: #171a1d;
+    height: 250px;
+    color:#e0e0e0;
+}
+
+#footer .row p{
+    line-height: 40px;
+    font-size: 15px;
+}
+#footer .row .copyright{
+    font-size: 12px;
+}
+/*************************通用样式-end************************/
+
+
+/**********************index.html-start*********************/
+#car_recommend .row .media-body p{
+    font-size: 0.8em;
+    margin-top: 1em;
+    line-height: 2.5em;
+}
+
+#car_hot{
+    background-color: #e0e0e0;
+}
+
+#car_hot .card-body{
+    height: 160px;
+}
+
+#car_step .container .row .step-icon{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border: 1px solid #c6c8ca;
+    border-radius: 50%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#car_step .container .row h6{
+    margin-top: 2em;
+}
+/**********************index.html-end*********************/
+
+
+/******************about_us.html-start*****************/
+#profile .row p{
+    line-height: 2em;
+    text-indent: 2em;
+}
+
+#connect_us .row h6{
+    margin-top: 1em;
+}
+/*****************about_us.html-end************/
+
+
+/*****************carsafe.html-start************/
+#carsaft .row i{
+    border:1px solid #ccc;
+    border-radius: 0.2em;
+}
+
+#carsaft .row i:hover{
+    color:#92d3d9;
+    border:1px solid #92d3d9;
+    border-radius: 0.2em;
+    box-shadow: 0 0.125rem 0.25rem rgba(146, 211, 217, 0.5) !important;
+}
+
+
+#profile .row h5{
+    font-size:1rem;
+}
+
+#profile .row h6{
+    font-size:0.8em;
+    line-height: 1.2rem;
+}
+
+#brands .title h6{
+    font-size: 0.8em;
+    line-height: 1.5rem;
+}
+/*****************carsafe.html-end************/
