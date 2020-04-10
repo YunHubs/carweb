@@ -7,7 +7,7 @@ laragon + laravel 6.0<br>
 * 首页<br>
 * 车险服务<br>
 * 公司简介<br>
-<br>
+
 **后端管理页面** <br>
 * 用户管理<br>
 * banner图片管理<br>
